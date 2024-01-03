@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>love calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+          <img src="8386018.png" alt="Logo" id="logo">
+          <h2>Famio</h2>
+          <button><a download href="/sendNames">Download</a></button>
+        </div> 
+        
+    </header>
+        <!--<ul class="myList">
+            <%for(var i=0;i<newtask.length;i++){%>
+                <label>
+                <li type="none"><input class='check' type='checkbox' name="tasks"><p><%=newtask[i]%></p></li>
+                </label>
+           <% }%>
+            </ul>
+            <ul class="myList">
+                <%for(var i=0;i<newtask.length;i++){%>
+                    <label>
+                    <li type="none"><input class='check' type='checkbox' name="tasks"><p><%=newname[i]%></p></li>
+                    </label>
+               <% }%>
+                </ul>-->
+    <div class="box">
+        <form action="/home" method="post">
+         <input id='inputtask' type='text' placeholder='enter yourname'name="addtask"><br><br>
+         <input id='inputname' type='text' placeholder='enter your partner'name="addname"><br><br>
+         <select name="gender" id="sel">
+         <option value="">Select gender</option>
+         <option value="boy">Boy</option>
+         <option value="girl">Girl</option>
+         </select>
+         <select name="reli" id="rel">
+            <option value="">Select religion</option>
+            <option value="">Greek</option>
+            <option value="">Hindu</option>
+            <option value="">Chirstianity</option>
+            <option value="">Islam</option>
+            <option value="">Jain</option>
+            <option value="">Judaism</option>
+            </select>
+         <br><input id='submit' type='submit' value="GENERATE">
+        </form>
+    </div>
+    <footer class="footer">
+        <p>&copy; 2023 Copyright. All rights reserved.</p>
+        <p>Designed with <span style="color: #e74c3c;">&#10084;</span>Alberto</p>
+        <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    </footer>
+      
+    </body>
+</html>
